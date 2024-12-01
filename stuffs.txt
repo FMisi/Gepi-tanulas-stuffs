@@ -1,0 +1,12 @@
+Éles ZH-k, vagy minták másoktól:
+
+https://colab.research.google.com/drive/1Gn8XZ0jyrJNJcU1DeAVQY7BP-144Nwe4?usp=sharing
+https://colab.research.google.com/drive/1Ix8X361zregd6CKW8cfdW2seKgl2KbZk?usp=sharing
+https://colab.research.google.com/drive/1HZE2x3p89HsQyIes55n4feRbzu3im8kW?usp=sharing
+https://colab.research.google.com/drive/1bun2SUjthpUUsBkkFKPL_5sbpxTNfaEF?usp=sharing
+
+My first attempt: https://colab.research.google.com/drive/13OotfE7eW6dkpap06N-riKSZ2RfYLiLs?usp=sharing
+Tökéletes ötös javítón 🥳 : https://colab.research.google.com/drive/1cNZMScxp1y6jmE91t7PrULJ7ghvv1k3o?usp=sharing
+
+Ezt meg már itt MSC-n csináltuk, nézd át előre, hátha van olyan lépés, ami neked majd kelleni fog és mi is megcsináltuk:
+https://colab.research.google.com/drive/1VJA9k9n5fLRFzO_NlX46DVNkVuXyHEEj?usp=sharing

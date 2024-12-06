@@ -10,3 +10,39 @@ Tökéletes ötös javítón 🥳 : https://colab.research.google.com/drive/1cNZ
 
 Ezt meg már itt MSC-n csináltuk, nézd át előre, hátha van olyan lépés, ami neked majd kelleni fog és mi is megcsináltuk:
 https://colab.research.google.com/drive/1VJA9k9n5fLRFzO_NlX46DVNkVuXyHEEj?usp=sharing
+
+
+Előfeldolgozás:
+OneHotEnc.
+LabelEnc.
+CountVec.
+Tfid_ldf
+
+Beágyazások (Gensim):
+vektorok
+
+Kiértékelés:
+osuztályozó: precision, recall, f1 (accuracy)
+regresszor: RMSE, MAE, R^2 (0 - 1)
+
+train, valid., test
+
+Model:
+osztályozók és regressor-ok:
+
+Dummy - külön kategória
+KNN - n
+Döntési fa - mélység
+Lin. gép - c
+
+plotolni fát, confusion mátrix plotolása, de elég csak kiiratni az értékeket utóbbinál, modell teljesítmény
+
+tipp: ALL.ipynb megvalósítása zh előtt ahol minden benne van letisztultan.
+
+regressziós és osztályozási feladat példa:
+kinek adunk biztosítást - osztályozási feladat
+van-e agykárosodás betegnél - osztályozás
+osztálycímke van - osztályozás
+
+jósold meg azt hogy az adott diák mennyit tanul, hány év befejeznie az egyetemet - regressziós feladat
+

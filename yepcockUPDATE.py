@@ -67,9 +67,6 @@ from sklearn.model_selection import train_test_split
 from sklearn import tree
 from sklearn.metrics import f1_score, classification_report
 
-# Példa adatok (használjuk a saját 'features' és 'classlabel' változókat)
-# features = ... (diszkrét változók)
-# classlabel = ... (célváltozó)
 
 # OneHotEncoder alkalmazása
 ohe = preprocessing.OneHotEncoder()  # sparse mátrix formátum

@@ -60,28 +60,6 @@ print(classification_report(classlabel, pred))
 Hajts végre gépi tanulási kísérletet arra nézve, hogy egy gomba mérgező/ehető mennyire jól állapítható meg a jellemzők alapján! Használd az adat véletlenszerű 20%-át kiértékelő adatbázisnak.
 """
 
-# NEM JO KEZDETE
-from sklearn import preprocessing
-# ha csak a diszkrét változókat one hot encodoljuk:
-ohe = preprocessing.OneHotEncoder() #one hot encoding
-ohe_features = ohe.fit_transform(features)
-
-ohe_features = pd.DataFrame.sparse.from_spmatrix(ohe_features, columns=ohe.get_feature_names_out(features.columns), index=features.index)
-
-
-from sklearn.model_selection import train_test_split
-features_train, features_test, classlabel_train, classlabel_test = train_test_split(ohe_features, classlabel, test_size=0.2, random_state=42)
-
-from sklearn import tree
-dt = tree.DecisionTreeClassifier()
-dt.fit(features_train,classlabel_train)
-results = dt.predict(features_test)
-f1_score(classlabel_test,results ,pos_label='p')
-
-from sklearn.metrics import classification_report
-print(classification_report(classlabel_test, results))
-f1_score(classlabel_test,results,pos_label='p')
-
 import numpy as np
 import pandas as pd
 from sklearn import preprocessing
